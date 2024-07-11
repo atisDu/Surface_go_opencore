@@ -5,7 +5,6 @@ macOS on the Pentium Gold Y4415 Microsoft Surface Go (4gb / 64gb eMMC model)  th
 
 # The big issues
 macOS only works with eMMC storage if you use the [EmeraldSDHC kext](https://github.com/acidanthera/EmeraldSDHC) which as of writing this (11.07.2024 and the EmeraldSDHC kext version 0.1.2) does not seem to work with the SD host controller found in
-
 the Surface Go (4gb / eMMC). Even legacy ATA controller kexts dont work. Which means that internal storage won't work.
 
 The latest macOS recovery that is working is macOS 12 Monterey. 
