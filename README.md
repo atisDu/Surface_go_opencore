@@ -23,8 +23,9 @@ The touch (keyboard) cover and trackpad works
 Recovery boots with cpuid spoof, since cpu's outside the core series aren't officially supported and are not found in official intel macs.
 
 Follow the [Dortania OpenCore install guide](https://dortania.github.io/OpenCore-Install-Guide/) for installation on laptop kaby lake cpu's or use the provided config.plist, but change the PlatformInfo SMBIOS, for which a guide can be found in 
-
 the opencore install guide.
+
+Put the EFI folder in the root of the usb drive and download the mac os Monterey recovery folder by following the OpenCore install guide.
 
 
 
