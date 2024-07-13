@@ -15,7 +15,7 @@ The wifi card (Atheros QCA 6174) does not work in macOS, and since the Surface G
 # What is confirmed to be working
 The realtek SD card reader works
 
-The touch (keyboard) cover and trackpad works
+The touch (keyboard) cover and trackpad works with the [BigSurface kext](https://github.com/Xiashangning/BigSurface), comprising of modified Voodoo input kexts.
 
 
 
