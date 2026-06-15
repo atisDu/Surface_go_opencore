@@ -20,7 +20,7 @@ The touch (keyboard) cover and trackpad works with the [BigSurface kext](https:/
 
 
 # How to make it boot
-Recovery boots with cpuid spoof, since cpu's outside the core series aren't officially supported and are not found in official intel macs.
+Recovery boots with cpuid spoof, since CPUs outside the core series aren't officially supported and are not found in official intel macs.
 
 Follow the [Dortania OpenCore install guide](https://dortania.github.io/OpenCore-Install-Guide/) for installation on laptop kaby lake cpu's or use the provided config.plist, but change the PlatformInfo SMBIOS, for which a guide can be found in 
 the opencore install guide.
@@ -30,4 +30,4 @@ Put the EFI folder in the root of the usb drive and download the mac os Monterey
 
 
 ## Disclaimer
-This repository is neither a howto nor an installation manual. Using these files requires at least basic knowledge of [Acidanthera's OpenCore bootloader](https://github.com/acidanthera/OpenCorePkg), ACPI, UEFI and the art of hackintoshing in general. I recommend reading the excellent [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide), as well as all its linked resources.
+This repository is neither a how to nor an installation manual. Using these files requires at least basic knowledge of [Acidanthera's OpenCore bootloader](https://github.com/acidanthera/OpenCorePkg), ACPI, UEFI and the art of hackintoshing in general. I recommend reading the excellent [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide), as well as all its linked resources.
